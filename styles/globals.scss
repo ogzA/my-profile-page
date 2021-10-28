@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
+
+html {
+  background-color: #151425;
+  background: linear-gradient(to bottom right, #09093f, #1e2227);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+.bg-img {
+  background: url(../public/wuppertal-neu.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.social {
+  li {
+    width: 2rem;
+    height: auto;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+}
+
+.svg-inline--fa {
+  width: 1.5em;
+  opacity: 0.6;
+  color: #eee;
+}
+
+.tracking-widest {
+  color: #fff;
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
