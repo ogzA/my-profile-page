@@ -36,14 +36,14 @@ export default function Home() {
         <meta property="og:url" content="https://oguzakankan.com/" />
         <meta property="og:title" content="Oğuz Akankan - Frontend Developer" />
         <meta property="og:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
-        <meta property="og:image" content="./public/seo.png" />
+        <meta property="og:image" content="/seo.png" />
 
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://oguzakankan.com/" />
         <meta property="twitter:title" content="Oğuz Akankan - Frontend Developer" />
         <meta property="twitter:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
-        <meta property="twitter:image" content={Seo} />
+        <meta property="twitter:image" content="/seo.png" />
 
       </Head>
       <animated.div style={images}>
