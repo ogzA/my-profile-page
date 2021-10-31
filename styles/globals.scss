@@ -3,16 +3,19 @@
 html {
   background-color: #151425;
   background: linear-gradient(to bottom right, #09093f, #1e2227);
-  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   height: -webkit-fill-available;
   min-height: -webkit-fill-available;
   font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  overflow-y: hidden;
+  
 }
 
 body {
-  min-height: 100vh;
   min-height: -webkit-fill-available;
+  min-height: 100vh;
+
 }
 
 .bg-img {
@@ -44,4 +47,13 @@ body {
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
   font-weight: 600;
+}
+
+#__next {
+  height: calc(100% - 36px); 
+}
+
+
+#footer {
+  height: auto;
 }

@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useSpring, animated } from "react-spring";
-import Header from "../src/components/Header";
-import Nav from "../src/components/Nav";
 import BgImage from "../src/components/BgImage";
 import Profile from "../public/akankan.jpeg";
-import Footer from "../src/components/Footer";
+import Seo from "../public/seo.png";
+
 
 export default function Home() {
   const images = useSpring({
@@ -24,12 +23,35 @@ export default function Home() {
     config: { duration: 200 },
   });
   return (
-    <div>
+    <>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+       
+        <title>Oğuz Akankan - Frontend Developer</title>
+        <meta name="title" content="Oğuz Akankan - Frontend Developer" />
+        <meta name="description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
+
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://oguzakankan.com/" />
+        <meta property="og:title" content="Oğuz Akankan - Frontend Developer" />
+        <meta property="og:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
+        <meta property="og:image" content="./public/seo.png" />
+
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://oguzakankan.com/" />
+        <meta property="twitter:title" content="Oğuz Akankan - Frontend Developer" />
+        <meta property="twitter:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
+        <meta property="twitter:image" content={Seo} />
+
+      </Head>
       <animated.div style={images}>
         <BgImage />
       </animated.div>
 
       <animated.div
+        id="main"
         style={props}
         className="flex flex-col sm:flex-row items-center justify-center sm:justify-evenly min-h-screen mx-auto p-8 sm:p-16"
       >
@@ -60,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className="contact mb-12">
-            <a className="transition duration-300 ease-in-out w-6/12 py-4 px-12 font-semibold rounded-md shadow-md text-[#3730a3] bg-white hover:bg-[#3730a3] hover:text-white cursor-pointer">
+            <a href="mailto:akankan.me@gmail.com" className="transition duration-300 ease-in-out w-6/12 py-4 px-12 font-semibold rounded-md shadow-md text-[#3730a3] bg-white hover:bg-[#3730a3] hover:text-white cursor-pointer">
               GET IN TOUCH
             </a>
           </div>
@@ -68,7 +90,7 @@ export default function Home() {
           <div className="social">
             <ul className="flex">
               <li>
-                <a href="#">
+                <a href="https://twitter.com/_akankan" target="_blank" rel="noreferrer">
                   <svg
                     className="svg-inline--fa fa-twitter fa-w-16 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -87,7 +109,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="#" className="">
+                <a href="https://github.com/ogzA" target="_blank" rel="noreferrer">
                   <svg
                     className="svg-inline--fa fa-github fa-w-16 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -106,7 +128,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://de.linkedin.com/in/o%C4%9Fuz-akankan-84790b117" target="_blank" rel="noreferrer" >
                   <svg
                     className="svg-inline--fa fa-linkedin fa-w-14 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -129,9 +151,10 @@ export default function Home() {
         </main>
       </animated.div>
 
-      <animated.div style={props}>
+
+      {/* <animated.div id="footer" style={props}>
         <Footer />
-      </animated.div>
-    </div>
+      </animated.div>  */}
+    </>
   );
 }

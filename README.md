@@ -1,4 +1,4 @@
-# My Nextjs Profile Page Made with ❤️
+# My Profile Page Made with ❤️
 ![oguz-akankan](https://user-images.githubusercontent.com/5841619/139499930-db25135e-d4fd-459a-82a5-b13d8742c85a.png)
 
 
