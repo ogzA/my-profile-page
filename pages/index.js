@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="title" content="Oğuz Akankan - Web Developer" />
         <meta
           name="description"
-          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+          content="Motivated Web Developer with 8+ years of broad expertise in Web Dev."
         />
 
         <meta property="og:type" content="website" />
@@ -38,7 +38,7 @@ export default function Home() {
         <meta property="og:title" content="Oğuz Akankan - Web Developer" />
         <meta
           property="og:description"
-          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+          content="Motivated Web Developer with 8+ years of broad expertise in Web Dev."
         />
         <meta property="og:image" content="/seo.png" />
 
@@ -47,7 +47,7 @@ export default function Home() {
         <meta property="twitter:title" content="Oğuz Akankan - Web Developer" />
         <meta
           property="twitter:description"
-          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+          content="Motivated Web Developer with 8+ years of broad expertise in Web Dev."
         />
         <meta property="twitter:image" content="/seo.png" />
       </Head>
@@ -81,7 +81,7 @@ export default function Home() {
           <hr className="border-[#ffe479] w-16 mb-8" />
           <div className="description mb-12">
             <p className="text-white text-2xl sm:max-w-sm">
-              Motivated Front-End Developer with 8+ years of broad expertise in
+              Motivated Web Developer with 8+ years of broad expertise in
               HTML/CSS, UI/UX & Design, and JavaScript/ES6/ES2017 areas with a
               willingness to learn and master Back-End Development.
             </p>
