@@ -5,7 +5,6 @@ import BgImage from "../src/components/BgImage";
 import Profile from "../public/akankan.jpeg";
 import Seo from "../public/seo.png";
 
-
 export default function Home() {
   const images = useSpring({
     to: { opacity: 1 },
@@ -26,25 +25,31 @@ export default function Home() {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-       
-        <title>Oğuz Akankan - Frontend Developer</title>
-        <meta name="title" content="Oğuz Akankan - Frontend Developer" />
-        <meta name="description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
 
+        <title>Oğuz Akankan - Web Developer</title>
+        <meta name="title" content="Oğuz Akankan - Web Developer" />
+        <meta
+          name="description"
+          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+        />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://oguzakankan.com/" />
-        <meta property="og:title" content="Oğuz Akankan - Frontend Developer" />
-        <meta property="og:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
+        <meta property="og:title" content="Oğuz Akankan - Web Developer" />
+        <meta
+          property="og:description"
+          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+        />
         <meta property="og:image" content="/seo.png" />
-
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://oguzakankan.com/" />
-        <meta property="twitter:title" content="Oğuz Akankan - Frontend Developer" />
-        <meta property="twitter:description" content="Motivated Frontend Developer with 3+ years of broad expertise in Frontend Dev." />
+        <meta property="twitter:title" content="Oğuz Akankan - Web Developer" />
+        <meta
+          property="twitter:description"
+          content="Motivated Web Developer with 8+ years of broad expertise in Frontend Dev."
+        />
         <meta property="twitter:image" content="/seo.png" />
-
       </Head>
       <animated.div style={images}>
         <BgImage />
@@ -71,18 +76,21 @@ export default function Home() {
             Hi, I&apos;m Oğuz Akankan
           </h1>
           <p className="mb-8 tracking-widest uppercase bg-[#3730a3] text-white border-">
-            Frontend Developer
+            Web Developer
           </p>
           <hr className="border-[#ffe479] w-16 mb-8" />
           <div className="description mb-12">
             <p className="text-white text-2xl sm:max-w-sm">
-              Motivated Front-End Developer with 3+ years of broad expertise in
+              Motivated Front-End Developer with 8+ years of broad expertise in
               HTML/CSS, UI/UX & Design, and JavaScript/ES6/ES2017 areas with a
               willingness to learn and master Back-End Development.
             </p>
           </div>
           <div className="contact mb-12">
-            <a href="mailto:akankan.me@gmail.com" className="transition duration-300 ease-in-out w-6/12 py-4 px-12 font-semibold rounded-md shadow-md text-[#3730a3] bg-white hover:bg-[#3730a3] hover:text-white cursor-pointer">
+            <a
+              href="mailto:akankan.me@gmail.com"
+              className="transition duration-300 ease-in-out w-6/12 py-4 px-12 font-semibold rounded-md shadow-md text-[#3730a3] bg-white hover:bg-[#3730a3] hover:text-white cursor-pointer"
+            >
               GET IN TOUCH
             </a>
           </div>
@@ -90,7 +98,11 @@ export default function Home() {
           <div className="social">
             <ul className="flex">
               <li>
-                <a href="https://twitter.com/_akankan" target="_blank" rel="noreferrer">
+                <a
+                  href="https://twitter.com/_akankan"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     className="svg-inline--fa fa-twitter fa-w-16 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -109,7 +121,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/ogzA" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/ogzA"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     className="svg-inline--fa fa-github fa-w-16 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -128,7 +144,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://de.linkedin.com/in/o%C4%9Fuz-akankan-84790b117" target="_blank" rel="noreferrer" >
+                <a
+                  href="https://de.linkedin.com/in/o%C4%9Fuz-akankan-84790b117"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     className="svg-inline--fa fa-linkedin fa-w-14 transition duration-300 ease-in-out hover:opacity-80"
                     aria-hidden="true"
@@ -150,7 +170,6 @@ export default function Home() {
           </div>
         </main>
       </animated.div>
-
 
       {/* <animated.div id="footer" style={props}>
         <Footer />
