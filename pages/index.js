@@ -81,9 +81,12 @@ export default function Home() {
           <hr className="border-[#ffe479] w-16 mb-8" />
           <div className="description mb-12">
             <p className="text-white text-2xl sm:max-w-sm">
-              Motivated Web Developer with 8+ years of broad expertise in
-              HTML/CSS, UI/UX & Design, and JavaScript/ES6/ES2017 areas with a
-              willingness to learn and master Back-End Development.
+              A Web Developer with 8+ years of experience crafting responsive,
+              user-friendly interfaces with a strong foundation in HTML, CSS,
+              JavaScript (ES6/ES2017), and UI/UX design. Driven by curiosity and
+              a passion for clean code, I&apos;m currently expanding into
+              back-end technologies to grow into a well-rounded full-stack
+              developer.
             </p>
           </div>
           <div className="contact mb-12">
